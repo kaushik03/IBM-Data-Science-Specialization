@@ -1,66 +1,12 @@
-# Week 1 - Hands on Lab 
+# About this module
 
-To write and execute the following SQL statements in this lab, I will need to launch the SQL editor (Run SQL) in your Db2 database instance on IBM Cloud that I created.
+Much of the world's data resides in databases. SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases. 
 
-**NOTE: Some users have reported issues performing this lab using Microsoft Edge. It is recommended using Google Chrome or Mozilla Firefox as your web browser to complete these labs.**
+The purpose is to introduce relational database concepts and help learn and apply foundational knowledge of the SQL language. 
+It is also intended to get started with performing SQL access in a data science environment.  
 
-First you will launch the SQL editor in the Db2 console using the following steps:
-
-- [x] Go to your IBM Cloud dashboard (you may need to log into IBM Cloud in the process):
-
-https://cloud.ibm.com/resources
-
-- [x] Expand the Services and locate and click on your instance of Db2 you provisioned in the previous lab (the name typically starts with Db2-xx for example Db2-fk, Db2-50, etc.)
-
-## Tasks list 
-- Drop table INSTRUCTOR in case it already exists
-  ```
-  drop table INSTRUCTOR ; 
-  ```
-1. Create table INSTRUCTOR
-     ```
-    CREATE TABLE INSTRUCTOR
-    (ins_id INTEGER PRIMARY KEY NOT NULL, 
-   lastname VARCHAR(15) NOT NULL, 
-   firstname VARCHAR(15) NOT NULL, 
-   city VARCHAR(15), 
-   country CHAR(2)
-    )
-    ```
-2.  - Insert single row for Rav Ahuja
-    ```
-    INSERT INTO INSTRUCTOR
-    (ins_id, lastname, firstname, city, country)
-    VALUES 
-    (1, 'Ahuja', 'Rav', 'Toronto', 'CA');
-    ```
-    - Insert the two rows for Raul and Hima
-    ```
-    INSERT INTO INSTRUCTOR
-        VALUES
-        (2, 'Chong', 'Raul', 'Toronto', 'CA'),
-        (3, 'Vasudevan', 'Hima', 'Chicago', 'US');
-
-    ```
-3.  Select all rows in the table
-    ```
-    SELECT * from INSTRUCTOR;
-
-    ```
-    - Select firstname, lastname and country where city is Toronto
-    ```
-    SELECT firstname, lastname, country from INSTRUCTOR where city='Toronto';
-
-    ```
-4.  Change the city for Rav to Markham
-    ```
-    UPDATE INSTRUCTOR SET city='Markham' where ins_id=1
-    ```
-5.  - Delete the row for Raul Chong
-    ```
-    DELETE FROM INSTRUCTOR where ins_id=2;
-    ```
-    -  Retrieve all rows from the table
-    ```
-    SELECT * FROM INSTRUCTOR;
-    ```
+The emphasis in this course is on hands-on and practical learning. 
+- As such, 
+    - To work with real databases, real data science tools, and real-world datasets. 
+    - To create a database instance in the cloud. Through a series of hands-on labs you will practice building and running SQL queries.
+    - To learn how to access databases from Jupyter notebooks using SQL and Python.
