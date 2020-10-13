@@ -30,5 +30,6 @@ There are two main type of objects :-
 - 
 The rest work ie:-
 - [x] Connecting SQL with Python
-- [x] Analysis Data is done on Jupyter Notebook
+- [x] Analysis Data 
+**is done on Jupyter Notebook**
 
