@@ -1,4 +1,10 @@
-# LAB: String Patterns, Sorting & Grouping
+# Assignments: 
+
+## For Loading Data
+- [x] Script is available
+- [x] Data is loaded in `Data` Folder
+
+## 1. String Patterns, Sorting & Grouping
 
 > HR Database
 ------------------------
@@ -12,10 +18,10 @@
     -  Creating tables
     - Loading data into tables
     - Composing and running queries
+### Sample for Tables imported into the DB2 instance.
 
-## For Loading Data
-- [x] Script is available
-- [x] Data is loaded in `Data` Folder
+<img src= "/assets/Sample Datasets.JPG" raw = true
+alt = "Sample"/>
 
 ### COMPOSING AND RUNNING QUERIES
 
@@ -79,4 +85,24 @@
     having count(*) < 4
     order by AVG_SALARY;
     ```
+
+---------------------------------
+
+## 2. Built-In functions
+
+- Aggregagte Functions
+    - SUM()
+    - MIN()
+    - MAX()
+    - AVG()
+- Date & Time Functions
+- Static and String Functions
+    - ROUND()
+    - UCASE()
+    - LCASE()
+    - LENGTH()
+    - DISTINCT()
+
+## 3. Sub-queries and Nested Functions.
+ ` Aggregate Functions can't be used in a where clause`
 
