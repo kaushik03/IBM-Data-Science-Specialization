@@ -24,7 +24,8 @@ Presently there are two sub-folders:
         1. Jupyter Notebook.
         2. IBM Watson Studio.
 
-- [ ] Databases & SQL for Data Science.
+- [x] Databases & SQL for Data Science.
+    
 - [ ] Data Analysis with Python
 - [ ] Data Visualisation with Python.
 - [ ] ML with Python
