@@ -25,9 +25,30 @@ Presently there are two sub-folders:
         2. IBM Watson Studio.
 
 - [x] Databases & SQL for Data Science.
-    
-- [ ] Data Analysis with Python
-- [ ] Data Visualisation with Python.
+    - Create and access a database instance on cloud
+    - Write basic SQL statements: CREATE, DROP, SELECT, INSERT, UPDATE, DELETE
+    - Filter, sort, group results, use built-in functions, access multiple tables
+    - Access databases from Jupyter using Python and work with real world datasets
+
+    **Final Project - Data Set of Chicago**
+- [x] Data Analysis with Python
+    - Data Wrangling
+    - Exploratory Data Analysis
+    - Model Development
+
+    **Final Project - Predicting Housing Price**
+- [x] Data Visualisation with Python.
+    - Data Visualisation tools :-
+        - Matplotlib
+            - Box Plot
+            - Histogram
+            - pie Chart
+            - Scatter Plot
+        - Word count
+        - Waffle Chart
+        - Seaborn
+
+    **Final Project- Immigration records to Canada from 1980-2013**
 - [ ] ML with Python
 - [ ] Final Project.
 
