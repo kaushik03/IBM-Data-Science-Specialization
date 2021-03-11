@@ -1,3 +1,0 @@
-/Data Science Methodologies/.ipynb_checkpoints
-/Python for AI and Data Science/.ipynb_checkpoints
-9. Data Science Capstone\
