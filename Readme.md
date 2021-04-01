@@ -49,8 +49,18 @@ Presently there are two sub-folders:
         - Seaborn
 
     **Final Project- Immigration records to Canada from 1980-2013**
-- [ ] ML with Python
-- [ ] Final Project.
+- [x] ML with Python
+    - Regression
+    - Classification
+    - Clustering
+    - [x] Projects
+        - Cancer Detection
+        - Predicting economic Trends
+        - Bad Loans Classifier
+
+- [x] Final Project.
+    - All Concepts of the 10 Modules mentioned above
+    - [x] One Project `Battle of Neighborhood`
 
 
 > The first two topics : 
